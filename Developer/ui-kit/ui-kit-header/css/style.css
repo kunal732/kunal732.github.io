@@ -2856,7 +2856,7 @@ section * {
   position: relative;
   width: 100%;
   z-index: 50;
-  padding-top: 330px;
+  padding-top: 150px;
   padding-bottom: 75px;
   background-color: #000;
   color: white;
@@ -2933,7 +2933,7 @@ section * {
   }
 }
 .header-9-sub .nav-steps {
-  margin-top: 185px;
+  margin-top: 80px;
   font-size: 13px;
   font-weight: normal;
   color: #7f8c8d;
@@ -2950,10 +2950,10 @@ section * {
 }
 .header-9-sub .nav-steps a {
   color: #ffffff;
-  opacity: 20;
+  /*opacity: 20;
   filter: alpha(opacity=2000);
   opacity: 0.2;
-  filter: alpha(opacity=20);
+  filter: alpha(opacity=20);*/
 }
 .header-9-sub .nav-steps a:hover,
 .header-9-sub .nav-steps a:focus,
@@ -2962,16 +2962,16 @@ section * {
 }
 .header-9-sub .nav-steps a:hover,
 .header-9-sub .nav-steps a:focus {
-  opacity: 50;
+  /*opacity: 50;
   filter: alpha(opacity=5000);
   opacity: 0.5;
-  filter: alpha(opacity=50);
+  filter: alpha(opacity=50);*/
 }
 .header-9-sub .nav-steps a.active {
-  opacity: 100;
+  /*opacity: 100;
   filter: alpha(opacity=10000);
   opacity: 1;
-  filter: alpha(opacity=100);
+  filter: alpha(opacity=100);*/
 }
 .header-9-sub .nav-steps .steps-selectors {
   margin: 0 40px;
@@ -6706,4 +6706,12 @@ section * {
 .popup-video > * {
   width: 100%;
   height: 100%;
+}
+
+.brand img {
+  max-width: 163px;
+}
+
+.nav-steps .btn {
+  padding: 15px 22px;
 }
