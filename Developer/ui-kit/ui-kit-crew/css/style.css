@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
 .dropdown-arrow-inverse {
   border-bottom-color: #34495e !important;
   border-top-color: #34495e !important;
@@ -1297,4 +1298,27 @@ section * {
   .crew-4 .members .member-wrapper + .member-wrapper {
     margin-top: 80px;
   }
+}
+
+.crew-4 h3 {
+  font-size: 30px;
+  font-weight: normal;
+  color: #2c3e50;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 42px;
+}
+
+.crew-4 .lead {
+  text-align: center;
+  font-size: 22px;
+  font-weight: normal;
+  color: #7f8c8d;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.row.team-header {
+  padding-bottom: 50px;
 }
