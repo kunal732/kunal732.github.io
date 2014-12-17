@@ -5325,3 +5325,30 @@ section * {
 .content-38 .column-2 {
   padding: 0;
 }
+
+.ss-form-entry input[type=text], textarea {
+  color: #000 !important;
+}
+
+textarea {
+  width: 100%;
+}
+
+.ss-form-entry {
+  margin-bottom: 14px;
+}
+
+.ss-q-title {
+  color: #2C3E50;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.ss-required-asterisk {
+  color: rgb(196,59,29);
+}
+
+.accelerate-form {
+  border: 1px solid #000;
+  padding: 40px;
+}
