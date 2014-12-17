@@ -2153,7 +2153,7 @@ section * {
 .content-16 {
 	position: relative;
 	padding-top: 50px;
-	/*padding-bottom: 50px;*/
+	padding-bottom: 50px;
 }
 .content-16.v-center,
 .content-16 .v-center {
@@ -2204,9 +2204,9 @@ section * {
 }
 .content-16 .lead {
   text-align: center;
-  font-size: 25px;
+  font-size: 22px;
   font-weight: normal;
-  color: #bdc3c7;
+  color: #7f8c8d;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin-bottom: 35px;
@@ -2216,6 +2216,7 @@ section * {
   font-size: 35px;
   font-weight: normal;
   color: #2c3e50;
+  margin-bottom: 36px;
 }
 .content-16 h3 img {
   display: block;
@@ -3740,7 +3741,7 @@ section * {
 	text-align: center;
 }
 .content-28 h3 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: normal;
   color: #2c3e50;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -5327,8 +5328,8 @@ section * {
 }
 
 #accordion {
-  padding-top: 60px;
-  padding-bottom: 80px;
+  padding-top: 0px;
+  padding-bottom: 30px;
 }
 
 .ui-accordion, .ui-accordion-header, .ui-accordion-content {
@@ -5347,4 +5348,8 @@ section * {
 #accordion p {
   font-size: 16px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input[type="submit"] {
+  color: #444;
 }
