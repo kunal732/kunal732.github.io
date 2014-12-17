@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="Developer/flat-ui/css/flat-ui.css">
 <link rel="stylesheet" href="Developer/common-files/css/icon-font.css">
 <link rel="stylesheet" href="Developer/common-files/css/animations.css">
-<link rel="stylesheet" href="Developer/common-files/css/jquery-ui.css">
+<link rel="stylesheet" href="Developer/common-files/js/jquery-ui-1.11.2.custom/jquery-ui.css">
 <!-- header -->
 <link rel="stylesheet" href="Developer/ui-kit/ui-kit-header/css/style.css">
 <!-- price -->
@@ -428,73 +428,73 @@
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
                 <div id="accordion">
-                    <h3>[+] What is SendGrid Accelerate?</h3>
+                    <h3>What is SendGrid Accelerate?</h3>
                     <div>
                         <p>
                             It's a SendGrid program for top tier startups, accelerators, VCs and incubators. We have a dedicated team of business and technical experts that live and breathe startups and are here to help founders and their companies grow faster.
                         </p>
                     </div>
-                    <h3>[+] Why does SendGrid have a program like this?</h3>
+                    <h3>Why does SendGrid have a program like this?</h3>
                     <div>
                         <p>
                             We've been one of the most successful companies out of Techstars and truly believe that the mentorship-driven accelerator model works, because it took us to the next level. This is our way to give back to the global startups community by helping the best next generation of founders.
                         </p>
                     </div>
-                    <h3>[+] How exactly do you do that?</h3>
+                    <h3>How exactly do you do that?</h3>
                     <div>
                         <p>
                             We have partnerships with over 200 Accelerators and early stage VC funds in over 15 countries. The Accelerate team is globally distributed and works directly with founders, managing directors of accelerators and VC funds, by hosting dedicated office hours and private workshops for their companies.
                         </p>
                     </div>
-                    <h3>[+] What makes SendGrid Different?</h3>
+                    <h3>What makes SendGrid Different?</h3>
                     <div>
                         <p>
                             We believe that more than just providing you with free SendGrid we can make a significant contribution to the growth of your startup. We can help with industry expertise, connections and top-tier email technology. Companies like Pinterest, Airbnb, Uber, Pardot (now Salesforce), Spotify and Tumblr use our technology on a daily basis to communicate with their users.
                         </p>
                     </div>
-                    <h3>[+] How am I eligible for the Program?</h3>
+                    <h3>How am I eligible for the Program?</h3>
                     <div>
                         <p>
                             If you are part of an accelerator or VC fund that has partnered with SendGrid or you get referred via a SendGrid employee.
                         </p>
                     </div>
-                    <h3>[+] How much free SendGrid will I get?</h3>
+                    <h3>How much free SendGrid will I get?</h3>
                     <div>
                         <p>
                             At least 100,000 emails a month for 6 months. But this can vary depending on maturity level of your company as well as the fund and accelerator you are a part of.
                         </p>
                     </div>
-                    <h3>[+] What is the duration of the program?</h3>
+                    <h3>What is the duration of the program?</h3>
                     <div>
                         <p>
                             6-12 months depending on the company.
                         </p>
                     </div>
-                    <h3>[+] Can I apply twice if I participate in 2 different accelerators that are partners?</h3>
+                    <h3>Can I apply twice if I participate in 2 different accelerators that are partners?</h3>
                     <div>
                         <p>
                             No. Each company can only participate in Accelerate once.
                         </p>
                     </div>
-                    <h3>[+] What if I am an existing paid SendGrid Customer?</h3>
+                    <h3>What if I am an existing paid SendGrid Customer?</h3>
                     <div>
                         <p>
                             No problem. We can apply the credits to your existing invoice, if you are part of an Accelerator or raised money from one of our VC partners. We can't provide you free SendGrid if you are a self-funded startup that is already a SendGrid paid customer.
                         </p>
                     </div>
-                    <h3>[+] Are there SendGrid Accelerate Batches or Classes?</h3>
+                    <h3>Are there SendGrid Accelerate Batches or Classes?</h3>
                     <div>
                         <p>
                             No.
                         </p>
                     </div>
-                    <h3>[+] Does my location matter?</h3>
+                    <h3>Does my location matter?</h3>
                     <div>
                         <p>
                             No. We are a globally distributed team.
                         </p>
                     </div>
-                    <h3>[+] Still Have Additional Questions?</h3>
+                    <h3>Still Have Additional Questions?</h3>
                     <div>
                         <p>
                             No Sweat! Email <a href="mailto:accelerate@sendgrid.com">accelerate@sendgrid.com</a>.
@@ -531,7 +531,7 @@
 </footer>
 
 <script src="Developer/common-files/js/jquery-1.10.2.min.js"></script>
-<script src="Developer/common-files/js/jquery-ui.js"></script>
+<script src="Developer/common-files/js/jquery-ui-1.11.2.custom/jquery-ui.js"></script>
 <script src="Developer/flat-ui/js/bootstrap.min.js"></script>
 <script src="Developer/common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
 <script src="Developer/common-files/js/modernizr.custom.js"></script>
@@ -544,8 +544,13 @@
 
 <script>
     $(function() {
+        var icons = {
+          header: "ui-icon-plus",
+          activeHeader: "ui-icon-minus"
+        };
         $( "#accordion" ).accordion({
-            collapsible: true
+            collapsible: true,
+            icons: icons
         });
     });
 </script>
