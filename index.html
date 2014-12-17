@@ -684,7 +684,8 @@
         };
         $( "#accordion" ).accordion({
             collapsible: true,
-            icons: icons
+            icons: icons,
+            heightStyle: "content"
         });
         $('#form').submit(function() {
             postToGoogle();
